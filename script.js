@@ -19,6 +19,6 @@ function calculateMinCost() {
 		arr.sort((a,b)=>a-b)	
 	}
 	let result=document.getElementById('result');
-	finalSum.textContent=result;
+	result.textContent=finalSum;
   
 }  
